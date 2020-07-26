@@ -1,0 +1,5 @@
+F_name=input("enter first name: ")
+L_name=input("enter last name: ")
+age=input("enter age: ")
+city=input("enter city: ")
+print("your name is %s %s\nyour age is %s\nyou live in %s" %(F_name, L_name, age,city))

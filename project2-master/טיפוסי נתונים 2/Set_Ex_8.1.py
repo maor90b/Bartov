@@ -1,0 +1,11 @@
+set1= 9,4,1,5
+set1 = set(set1)
+set2=set([5,6,8,1])
+set3=set()
+set1.update(set2)
+print(set1)
+set1.discard(5)
+print(set1)
+print(len(set1),max(set1),min(set1))
+set1.update([1,3,5])
+print(set1)
