@@ -54,6 +54,6 @@ class Worker:
         else:
             return 'Bad response!'
 
-
-bob= Worker('Bob','Marshal',1970,7,30,'2 Dizengof,Tel Aviv','il')
-print(bob.location())
+#
+# Yoram= Worker('Yoram','Marshal',1970,7,30,'2 Kaplan, Tel Aviv','il')
+# print(Yoram.location())
